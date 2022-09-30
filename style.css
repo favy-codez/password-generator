@@ -38,6 +38,10 @@ span{
     margin: 6px 0;
 }
 
+#words{
+    padding-right: 70px; 
+}
+
 label{
     font-size: 1rem;
 }
@@ -74,7 +78,7 @@ button#copypassbtn {
 #password {
     background-color: #273549;
     color: #55F991;
-    width: 200px;
+    width: 180px;
     height: 40px;
     border-radius: 5px;
     display: flex;
@@ -83,7 +87,7 @@ button#copypassbtn {
 }
 
 #generatebtn, #copypassbtn{
-    font-size: 16px;
+    font-size: 15px;
 }
 
 #generatebtn:hover{
