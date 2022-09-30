@@ -10,7 +10,7 @@ span{
 }
 
 .container{
-    max-width: 400px;
+    max-width: 500px;
     background-color: #1F2937;
     margin: 5rem auto;
     padding: 3rem 2em;
@@ -29,7 +29,7 @@ span{
 }
 
 .main{
-    width: 350px;
+    width: 400px;
 }
 
 .checkboxes {
@@ -75,15 +75,21 @@ button#copypassbtn {
     align-items: center;
 }
 
+.passwords-box{
+    text-align: center;
+    padding: 10px;
+}
+
 #password {
     background-color: #273549;
     color: #55F991;
-    width: 180px;
+    width: 240px;
     height: 40px;
     border-radius: 5px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    
 }
 
 #generatebtn, #copypassbtn{
