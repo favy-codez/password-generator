@@ -105,3 +105,21 @@ button#copypassbtn {
     background-color: #D5C7A9;
     color: #000;
 }
+
+
+/* media query */
+@media screen and (max-width:375px){
+    #words{
+        padding-right: 50px; 
+    }
+    .main{
+        width: 270px;
+    }
+    .container h2{
+        font-size: 1.3rem;
+    }
+    .container{
+        padding: 3rem 1.4rem;
+    }
+
+}
