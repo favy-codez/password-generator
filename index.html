@@ -9,10 +9,34 @@
 </head>
 <body>
     <div class="container">
-        <h2>Generate a random password</h2>
+        <h2>Generate a <br> <span>random password</span> </h2>
         <p>Never use an insecure password again!!</p>
-        <button>Generate passwords</button>
+        <div class="main">
+            <div class="checkboxes">
+                <label for="pw-length">Length (10-24):</label>
+                <input type="number" id="pw-length" name="pw-length" min="10" max="24" value="15">
+            </div>
+            <div class="checkboxes">
+                <label for="letters">Include Letters</label>
+                <input type="checkbox" id="letters" name="letters" onclick="checkbox()" checked>    
+            </div>
+            <div class="checkboxes">
+                <label for="numbers">Include Numbers</label>
+                <input type="checkbox" id="numbers" name="numbers" onclick="checkbox()" checked>
+            </div>
+            <div class="checkboxes">
+                <label for="symbols">Include Symbols</label>
+                <input type="checkbox" id="symbols" name="symbols" onclick="checkbox()" checked>    
+            </div>
+        </div>
         
+        <button onclick="getPassword()" id="generatebtn">Generate Password</button>
+            <div class="passwords">
+                <div class="passwords-box" id="password"></div>
+                <div class="copybtn">
+                    <button onclick="copyPassword()" id="copypassbtn">Copy Password</button>
+                </div>
+            </div>     
     </div>
 </body>
 </html>

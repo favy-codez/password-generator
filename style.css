@@ -5,9 +5,93 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+span{
+    color: #22664E;
+}
+
 .container{
     max-width: 400px;
     background-color: #1F2937;
-    margin: 18rem auto;
+    margin: 5rem auto;
     padding: 3rem 2em;
+    color: #fff;
+    font-size: 18px;
+}
+
+.container h2{
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+
+.container p{
+    color: #D5C7A9;
+    margin:13px 0 20px 0;
+}
+
+.main{
+    width: 350px;
+}
+
+.checkboxes {
+    display: flex;
+    justify-content: space-between;
+    margin: 6px 0;
+}
+
+label{
+    font-size: 1rem;
+}
+
+.letters{
+    margin: 0 auto;
+}
+
+button {
+    background-color: #10B981;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    color: #fff;
+}
+
+button#generatebtn {
+    margin-top: 20px;
+}
+
+button#copypassbtn {
+    margin-left: 10px;
+}
+
+.passwords {
+    display: flex;
+    border-top: 1px solid #2F3E53;
+    margin-top: 30px;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#password {
+    background-color: #273549;
+    color: #55F991;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#generatebtn, #copypassbtn{
+    font-size: 16px;
+}
+
+#generatebtn:hover{
+    background-color: #D5C7A9;
+    color: #000;
+}
+
+#copypassbtn:hover{
+    background-color: #D5C7A9;
+    color: #000;
 }
